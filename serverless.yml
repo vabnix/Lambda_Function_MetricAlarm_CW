@@ -1,0 +1,11 @@
+service: memoryutilizationalarmsetup
+
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: python3.8
+
+functions:
+  _v:
+    handler: handler.MemoryUtilizationAlarm
